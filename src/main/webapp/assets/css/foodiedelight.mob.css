@@ -1,0 +1,472 @@
+/*===== Responsive adjustments =====*/
+@media screen and (max-width: 767px) {
+  .line {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .form-img {
+    margin-bottom: 6px;
+    height: 60px;
+  }
+  /*===== Sidebar =====*/
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 60px;
+    padding: 5px 7px;
+    background: var(--sidebar-color);
+    transition: var(--tran-05);
+    z-index: 350;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  .sidebar.close {
+    width: 60px;
+  }
+  .sidebar header .image,
+  .sidebar .icon {
+    min-width: 48px;
+    border-radius: 6px;
+  }
+  .sidebar .icon {
+    min-width: 45px;
+    border-radius: 6px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+  }
+  .sidebar .text {
+    display: none;
+  }
+  header .image-text .name {
+    display: none;
+  }
+  header .image-text .profession {
+    display: none;
+  }
+  .sidebar header .toggle {
+    display: none;
+  }
+  /*===== Tooltip text =====*/
+  .sidebar.close .nav-link .tooltip .tooltip-text {
+    width: 100px;
+    font-size: 12px;
+  }
+  .main {
+    transition: margin-left 0.3s ease;
+    margin-left: 60px;
+    display: grid;
+  }
+  .main-container .text {
+    font-size: 16px;
+  }
+  /*===== Topbar =====*/
+  .topbar {
+    padding: 6px;
+    color: var(--text-color);
+    z-index: 300;
+  }
+  .topbar h1 {
+    font-size: 18px;
+    display: none;
+  }
+  .topbar-img {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 50%;
+  }
+  .popover-menu {
+    top: 50px;
+  }
+  /*===== Home =====*/
+  .home {
+    padding: 10px;
+    transition: var(--tran-05);
+  }
+  .home .text {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--text-color);
+    margin-bottom: 10px;
+  }
+  /*===== Featured =====*/
+  .featured {
+    margin-bottom: 10px;
+  }
+  .featured h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  /*===== Restaurant Container Main =====*/
+  .restaurant-container-main {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 10px;
+  }
+  .image-container {
+    height: 170px;
+  }
+  .image-container img {
+    height: 170px;
+  }
+  .restaurant-container .image-container {
+    height: 160px;
+  }
+  .restaurant-container .image-container img {
+    width: 180px;
+    height: 160px;
+    display: block;
+    border-radius: 20px;
+    object-fit: cover;
+    image-rendering: pixelated;
+  }
+  .discount-badge {
+    font-size: 16px;
+  }
+  .restaurant-name {
+    font-size: 16px;
+  }
+  .info-row {
+    font-size: 12px;
+  }
+  .delivery-info {
+    font-size: 12px;
+  }
+  .rating-star {
+    padding: 2px;
+  }
+  .delivery-info .bx-time-five {
+    font-size: 12px;
+  }
+  .info-container p {
+    font-size: 12px;
+  }
+  .label-container button {
+    cursor: pointer;
+    font-size: 24px;
+    border: none;
+  }
+  .label-container h2 {
+    font-size: 16px;
+  }
+  .card-wrapper img {
+    max-width: 100px;
+    max-height: 100px;
+    transition: 0.2s ease;
+  }
+  /*===== Footer =====*/
+  .footer {
+    font-size: 14px;
+    padding: 6px;
+  }
+  /*===== OffCanvas =====*/
+  .loginOffcanvas,
+  .cartOffcanvas {
+    width: 100%;
+  }
+  .offcanvas-header {
+    padding: 10px;
+  }
+  /*===== Table Container Main =====*/
+  .table-container {
+    padding: 10px;
+  }
+  .controls {
+    flex-direction: column;
+    align-items: center;
+  }
+  .controls label {
+    font-size: 12px;
+  }
+  .controls input[type="text"],
+  .controls select {
+    padding: 4px 10px;
+    font-size: 12px;
+  }
+  .controls select {
+    padding-right: 1px;
+  }
+  .left-controls,
+  .right-controls {
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .table-responsive {
+    overflow-x: auto;
+  }
+  table {
+    width: 100%;
+    font-size: 12px;
+    border: 1px solid var(--table-border);
+  }
+  th,
+  td {
+    padding: 8px;
+  }
+  /*===== Pagination Area =====*/
+  .pagination-area {
+    flex-direction: column;
+    align-items: center;
+  }
+  .pagination {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 6px;
+  }
+  .pagination button {
+    padding: 3px 6px;
+    margin: 2px;
+  }
+  /*===== Restaurant Menu =====*/
+  .restaurant-header {
+    display: flex;
+    flex-direction: column;
+    padding: 6px;
+    background-color: transparent;
+    color: var(--text-color);
+    position: -webkit-sticky;
+    position: static;
+    top: 0;
+    max-width: 100%;
+    z-index: -1;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+  .restaurant-header h1 {
+    padding-left: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--primary-color);
+  }
+  .right-end p {
+    padding: 5px;
+    font-size: 10px;
+  }
+  .resto-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    padding: 6px 0;
+  }
+  .resto-info button {
+    padding: 6px;
+    font-size: 12px;
+    background-color: transparent;
+    border-radius: 8px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    width: fit-content;
+  }
+  .resto-info i {
+    font-size: 16px;
+  }
+  .restaurant-header span,
+  .resto-info span {
+    padding-left: 6px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    align-items: center;
+    font-size: 12px;
+    display: flex;
+    gap: 2px;
+  }
+  .dotted-line {
+    margin: 5px 0 0 0;
+    border-style: dashed;
+    border-color: var(--border-color);
+  }
+  .resto-info i {
+    font-size: 14px;
+  }
+
+  /* ===== Box Overview ===== */
+  .box-overview {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  .info-box {
+    padding: 10px;
+  }
+  .info-box-icon img {
+    width: 40px;
+    height: 40px;
+  }
+  .info-box-text {
+    font-size: 14px;
+  }
+  .info-box-number {
+    font-size: 16px;
+  }
+  /* ===== Box Overview Ends ===== */
+  .buttons {
+    gap: 10px;
+  }
+  .order-main-container {
+    grid-template-columns: 1fr;
+  }
+  /* ===== Cart Item Starts ===== */
+  .cart-item-img {
+    width: 30px;
+    height: 30px;
+  }
+  .cart-item-title {
+    font-size: 12px;
+  }
+  .cart-item-price,
+  .cart-item-total {
+    font-size: 13px;
+  }
+  .cart-item-action button,
+  .cart-item-action .quantity-display {
+    height: 25px;
+  }
+  .cart-item-action button {
+    width: 30px;
+    font-size: 18px;
+  }
+  .cart-item-action .quantity-display {
+    width: 35px;
+  }
+  .cart-item-remove i {
+    font-size: 18px;
+  }
+  .billing-details {
+    font-size: 14px;
+  }
+  .billing-item {
+    gap: 2px;
+  }
+  /* ===== Cart Item Ends ===== */
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .line {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .main {
+    transition: margin-left 0.3s ease;
+    margin-left: 88px;
+    display: grid;
+  }
+  .main-container .text {
+    font-size: 16px;
+  }
+  .topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    background-color: var(--sidebar-color);
+    color: var(--text-color);
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    top: 0;
+    z-index: 1000;
+  }
+  .topbar h1 {
+    font-size: 24px;
+    margin: 0 auto;
+    color: var(--primary-color);
+    font-family: "Redressed", cursive;
+    font-weight: 400;
+  }
+  .topbar-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  .home {
+    padding: 10px;
+    transition: var(--tran-05);
+  }
+  .home .text {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--text-color);
+    margin-bottom: 10px;
+  }
+  .featured {
+    margin-bottom: 10px;
+  }
+  .featured h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .restaurant-container-main {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 10px;
+  }
+  .image-container {
+    height: 190px;
+  }
+  .image-container img {
+    height: 190px;
+  }
+  .restaurant-container .image-container {
+    height: 170px;
+  }
+  .restaurant-container .image-container img {
+    width: 190px;
+    height: 170px;
+    display: block;
+    border-radius: 20px;
+    object-fit: cover;
+    image-rendering: pixelated;
+  }
+  .discount-badge {
+    font-size: 18px;
+  }
+  .restaurant-name {
+    font-size: 18px;
+  }
+  .info-row {
+    font-size: 14px;
+  }
+  .delivery-info {
+    font-size: 14px;
+  }
+  .rating-star {
+    padding: 4px;
+  }
+  .delivery-info .bx-time-five {
+    font-size: 14px;
+  }
+  .info-container p {
+    font-size: 14px;
+  }
+  .label-container button {
+    cursor: pointer;
+    font-size: 26px;
+    border: none;
+  }
+  .card-wrapper img {
+    max-width: 150px;
+    max-height: 150px;
+    transition: 0.2s ease;
+  }
+  .footer {
+    font-size: 16px;
+    padding: 8px;
+  }
+  .loginOffcanvas,
+  .cartOffcanvas {
+    width: 100%;
+  }
+  .offcanvas-header {
+    padding: 10px;
+  }
+}
