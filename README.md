@@ -12,17 +12,23 @@ Run the following command to clone the repository:
 ```
 git clone https://github.com/sachinnimbal/Food-Delivery-Web-App.git
 ```
+
 ## Step 2: Import the Database into MySQL Workbench
 Open MySQL Workbench.
 Connect to your MySQL server.
-## Create a new database for the application name it foodedelightdb.
+#### Create a new database for the application name it foodedelightdb.
 Click on the Server menu and select Data Import.
 Choose the Import from Self-Contained File option.
 Browse and select the SQL file from the cloned repository (usually located in a directory like sql/ or similar).
 Select the foodedelightdb as the target database.
 Click Start Import to import the database schema and data.
 
-
+## Step 3: Open the Project in Eclipse
+Open Eclipse IDE.
+Go to File > Import.
+Select Maven > Existing Maven Projects and click Next.
+Browse to the directory where you cloned the repository and select it.
+Click Finish to import the project into Eclipse.
 
 > ## Project Screenshot
 
