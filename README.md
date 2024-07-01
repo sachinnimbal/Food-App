@@ -37,7 +37,7 @@ git clone https://github.com/sachinnimbal/Food-Delivery-Web-App.git
 
 ```java
 private static final String USERNAME = "your_mysql_username";
-private static final String PASSWORD = "your_mysql_password"; // Please change this password 
+private static final String PASSWORD = "your_mysql_password"; 
 ```
 
 4. Save the changes.
