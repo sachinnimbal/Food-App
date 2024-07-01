@@ -11,3 +11,10 @@
 
 ![FoodieDelight Desktop Demo](./FoodAppImages/Project2.png "Desktop Demo")
 
+## Step 1: Clone the Repository
+Open a terminal or command prompt.
+Navigate to the directory where you want to clone the repository.
+Run the following command to clone the repository:
+```
+git clone https://github.com/sachinnimbal/Food-Delivery-Web-App.git
+
