@@ -24,12 +24,12 @@ Select the foodedelightdb as the target database.
 Click Start Import to import the database schema and data.
 
 ## Step 3: Open the Project in Eclipse
-Open Eclipse IDE.
-Go to File > Import.
-Select Maven > Existing Maven Projects and click Next.
-Browse to the directory where you cloned the repository and select it.
-Click Finish to import the project into Eclipse.
-
+```1. Open Eclipse IDE.
+2. Go to File > Import.
+3. Select Maven > Existing Maven Projects and click Next.
+4. Browse to the directory where you cloned the repository and select it.
+5. Click Finish to import the project into Eclipse.
+```
 > ## Project Screenshot
 
 ![FoodieDelight Desktop Demo](./FoodAppImages/Project1.png "Desktop Demo")
