@@ -11,7 +11,7 @@ public class DBConnectionUtil {
 
     private static final String URL = "jdbc:mysql://localhost:3306/foodiedelightdb";
     private static final String USERNAME = "root";
-    private static final String PASSWORD = "Skn1631$$"; // Please change this password 
+    private static final String PASSWORD = "root"; 
 
     static {
         try {
