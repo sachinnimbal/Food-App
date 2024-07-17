@@ -53,7 +53,7 @@ private static final String PASSWORD = "your_mysql_password";
 
 ## Step 6: Access the Application
 1. Open a web browser.
-2. Navigate to `http://localhost:8080` (or the appropriate URL based on your server configuration) to access the application.
+2. Navigate to `http://localhost:8080/Food-Delivery-Web-App` (or the appropriate URL based on your server configuration) to access the application.
 
 ## Admin Login
 - **Username:** sknsachin
