@@ -26,7 +26,7 @@ git clone https://github.com/sachinnimbal/Food-Delivery-Web-App.git
 ## Step 3: Open the Project in Eclipse
 1. Open Eclipse IDE.
 2. Go to `File` > `Import`.
-3. Select `Maven` > `Existing Maven Projects` and click `Next`.
+3. Select `Maven` > `Existing Projects into Workspace` and click `Next`.
 4. Browse to the directory where you cloned the repository and select it.
 5. Click `Finish` to import the project into Eclipse.
 
