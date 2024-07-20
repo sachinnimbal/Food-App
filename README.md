@@ -44,12 +44,9 @@ private static final String PASSWORD = "your_mysql_password";
 
 ## Step 5: Run the Application on a Server
 1. In Eclipse, right-click on the project in the Project Explorer.
-2. Select `Run As` > `Maven Build...`.
-3. In the Goals field, enter `clean install` and click `Run` to build the project.
-4. After the build is successful, right-click on the project again.
-5. Select `Run As` > `Run on Server`.
-6. Choose the server you want to run the application on (e.g., Apache Tomcat).
-7. Click `Finish` to deploy and start the application on the server.
+2. Select `Run As` > `Run on Server`.
+3. Choose the server i.e, Apache Tomcat.
+4. Click `Finish` to deploy and start the application on the server.
 
 ## Step 6: Access the Application
 1. Open a web browser.
